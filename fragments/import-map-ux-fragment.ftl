@@ -7,7 +7,7 @@
 {
   "imports": {
     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa/lib/system/single-spa.dev.js",
-    "card-widget": "<@wp.resourceURL />/codemotion-example-bundle/static/js/codemotion-card-widget.js"
+    "codemotion-card-widget": "<@wp.resourceURL />/codemotion-example-bundle/static/js/codemotion-card-widget.js"
   }
 }
 </script>
