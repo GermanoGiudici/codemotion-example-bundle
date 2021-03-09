@@ -254,7 +254,7 @@
     </div>
 </div>
 
-<@wp.fragment code="octo_dashboard_js_ux_fragment" escapeXml=false />
+<@wp.fragment code="js_ux_fragment" escapeXml=false />
 
 </body>
 
