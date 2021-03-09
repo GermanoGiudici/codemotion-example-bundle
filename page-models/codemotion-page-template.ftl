@@ -16,7 +16,7 @@
     </title>
 
 
-    <@wp.fragment code="octo_dashboard_css_ux_fragment" escapeXml=false />
+    <@wp.fragment code="css_ux_fragment" escapeXml=false />
     <@wp.fragment code="import_map_ux_fragment" escapeXml=false />
 
 
