@@ -3,8 +3,6 @@
 
 <#assign serverLocation = "/entando-de-app/cmsresources/codemotion-example-bundle">
 
-<script nonce="<@wp.cspNonce />" src="${serverLocation}/js/entando-sspa.js" ></script>
-
 
 <!-- Bootstrap core JavaScript-->
 <script nonce="<@wp.cspNonce />" src="${serverLocation}/vendor/jquery/jquery.min.js" ></script>

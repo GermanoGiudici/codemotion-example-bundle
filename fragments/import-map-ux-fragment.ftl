@@ -1,4 +1,5 @@
 <#assign wp=JspTaglibs["/aps-core"]>
+<#assign serverLocation = "/entando-de-app/cmsresources/codemotion-example-bundle">
 
 <!--import map override plugin -->
 <meta name="importmap-type" content="systemjs-importmap"/>
@@ -18,3 +19,4 @@ AFTER all other import maps
 <script nonce="<@wp.cspNonce />" type="text/javascript" src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.3.0/dist/import-map-overrides.js"></script>
 <!-- optionally include the UI for import map overrides -->
 <import-map-overrides-full show-when-local-storage="devtools"></import-map-overrides-full>
+<script nonce="<@wp.cspNonce />" src="${serverLocation}/js/entando-sspa.js" ></script>
